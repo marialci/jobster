@@ -1,3 +1,55 @@
-// Place all the styles related to the People controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  border-top:5px solid #d35540;
+  font-family: Georgia, times, serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 34px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+
+ h2 {
+  font-size:20px;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size:18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px #bdc3c7 solid;
+}
+
+ul {
+  color: #e74c3c;
+  line-height: 20px;
+}
+
+.links a{
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #2980b9;
+}
+
+a:hover {
+  color: #1abc9c;
+}
